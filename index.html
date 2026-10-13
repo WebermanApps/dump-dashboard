@@ -1,0 +1,52 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light"><meta name="robots" content="noindex">
+<title>Dump Command Center</title><link rel="icon" href="favicon-32.png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Khand:wght@700&family=Hind:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf8f3;--card:#fff;--fg:#0a0a0a;--pri:#171717;--mut:#737373;--bd:#e5e5e5;--acc:#b5532f;--ease:cubic-bezier(.2,.8,.2,1);--dur:180ms}
+*{box-sizing:border-box}html{color-scheme:light}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 "Hind",system-ui,sans-serif;-webkit-text-size-adjust:100%}
+.mw-hover{transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),background-color var(--dur) var(--ease)}
+.mw-hover:hover,.mw-hover:focus-visible{transform:translateY(-1px) scale(1.03);box-shadow:0 6px 18px rgba(10,10,10,.12)}.mw-hover:active{transform:scale(.98)}
+@media (prefers-reduced-motion:reduce){.mw-hover,.mw-hover:hover{transition:none;transform:none}}
+main{max-width:1120px;margin:0 auto;padding:24px 16px 120px}
+h1,h2,h3{font-family:"Khand",sans-serif;font-weight:700;line-height:1.1;margin:0}
+h1{font-size:clamp(2.2rem,7vw,3.4rem)}.sub{color:var(--mut);margin:4px 0 16px}
+.status{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.chip{border:2px solid var(--pri);padding:6px 12px;font-family:"Khand";font-weight:700;font-size:1.15rem;background:var(--card)}
+.chip b{color:var(--acc)}
+.cols{display:grid;gap:16px}@media(min-width:760px){.cols{grid-template-columns:1fr 1fr}}@media(min-width:1080px){.cols{grid-template-columns:1.3fr 1fr 1fr}.wide{grid-row:span 2}}
+section{background:var(--card);border:1px solid var(--bd);border-radius:.75rem;padding:18px}
+h2{font-size:1.6rem;display:flex;align-items:center;gap:8px;margin-bottom:10px}
+svg{width:20px;height:20px;fill:none;stroke:var(--pri);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+h2 svg{stroke:var(--acc)}
+h3{font-size:1.2rem;display:flex;align-items:center;gap:8px;margin:14px 0 4px}.n{margin-left:auto;color:var(--mut);font-family:Hind;font-weight:600;font-size:.9rem}
+.tag{font-size:.85rem;border:2px solid var(--pri);padding:0 6px;letter-spacing:.1em}.tag.p0{border-color:var(--acc);color:var(--acc)}
+ul{list-style:none;margin:0;padding:0}li{padding:9px 0;border-top:1px solid var(--bd)}li:first-child{border-top:0}
+.who{display:inline-block;min-width:104px;font-weight:600;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase}
+.ho li{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}.ho .who{min-width:110px}
+.muted{color:var(--mut)}.when{display:block;color:var(--mut);font-size:.82rem}
+.empty{border:1px dashed var(--bd);padding:14px;color:var(--mut);display:flex;gap:10px;align-items:center}
+.bar{position:fixed;left:0;right:0;bottom:0;background:rgba(250,248,243,.94);border-top:1px solid var(--bd);padding:10px 16px calc(10px + env(safe-area-inset-bottom));display:flex;justify-content:center}
+.btn{min-height:48px;min-width:180px;display:inline-flex;align-items:center;justify-content:center;gap:8px;border:2px solid var(--pri);border-radius:0;background:var(--card);color:var(--pri);font:600 .95rem "Hind";letter-spacing:.1em;text-transform:uppercase;cursor:pointer}
+footer{text-align:center;padding:28px 0 8px;font-size:.85rem}footer a{color:var(--mut);text-decoration:none;display:inline-block}
+</style></head><body><main>
+<h1>Dump Command Center</h1>
+<p class="sub">Tracks Max's random to-dos and notifies the agent that owns each one. Updated Oct 13, 2026 12:36 PM ICT.</p>
+<div class="status"><span class="chip">21 Open</span><span class="chip"><b>2</b> P0</span><span class="chip">2 P1</span><span class="chip">17 P2</span></div>
+<div class="cols">
+<section class="wide"><h2><svg viewBox="0 0 24 24"><path d="M5 21V4m0 0h11l-2 4 2 4H5"/></svg>Open Items</h2><div class="grp"><h3><span class="tag p0">P0</span>Now<span class="n">2</span></h3><ul><li>TONIGHT 10/12: Buy plane ticket for my parents</li><li>TONIGHT 10/12: Send Kun&#x27;rit my payments</li></ul></div><div class="grp"><h3><span class="tag p1">P1</span>Soon<span class="n">2</span></h3><ul><li>Make sure what I send Thomas isn’t putting my tickets at risk</li><li>Update all addresses to Mandon</li></ul></div><div class="grp"><h3><span class="tag p2">P2</span>Someday<span class="n">17</span></h3><ul><li>Buy the AI glasses</li><li>Sell plates and dishes</li><li>Ask mom + Danny if anything of mine at their place is in the way — trash or set aside</li><li>Security camera for Chiang Mai home</li><li>Buy screen box</li><li>Computer repair</li><li>Set up other computer</li><li>Go through old footage and content on phone/computer</li><li>Go through emails</li><li>Purchase car in Chiang Mai</li><li>Buy a family calendar</li><li>Write poetry about the fear of reaching the end of life without accomplishing enough</li><li>Start reading The Economist</li><li>Computer re-image</li><li>Learn more about Starlink</li><li>Get a professional photo taken</li><li>Ask Stephen if he can send me that photo</li></ul></div></section>
+<section><h2><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17.5v.01"/></svg>Decisions Max Owes</h2><ul><li>Tesla close-out: answers to the open return questions</li><li>Subscription cancellations: which ones went through</li><li>10/12 night items: did the parents&#x27; plane ticket and Kun&#x27;rit payments get done?</li></ul></section>
+<section class="ho"><h2><svg viewBox="0 0 24 24"><path d="M4 12h14m-5-5 5 5-5 5"/></svg>Handed Off</h2><ul><li><span class="who">WellNest</span><span>Ding Ding attorney follow-up on the Wellnest name</span></li><li><span class="who">Portfolio</span><span>CPA follow-up (FYI: Kun&#x27;rit payments still open on Dump)</span></li><li><span class="who">Construction</span><span>Email Niko that the warranties were registered</span></li><li><span class="who">Prop</span><span>Wickfield items (soffit repair, mail forwarding)</span></li><li><span class="who">Prop</span><span>Mellow Wood stop-mail (filed, tracked on chase card)</span></li><li><span class="who">Scout</span><span>Make a channel trailer</span></li><li><span class="who">Construction</span><span>[web] items: hosting, site content, redirect, blogs, quick updates</span></li></ul></section>
+<section><h2><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Recent Work</h2><ul><li><span class="when">2026-10-13 12:22 · Ownership</span>Reorg: Wellnest section to the new WellNest agent; Dump role = track + notify. Recap in team-sync/reorg-2026-10-13.md.</li><li><span class="when">2026-10-13 00:16 · Shipped</span>Dump recap added to team-sync/2026-10-13.md.</li><li><span class="when">2026-10-12 21:14 · Intake</span>Niko job: email Niko that warranties were registered, tonight.</li><li><span class="when">2026-10-12 17:16 · Intake</span>Tonight: parents&#x27; plane ticket, Kun&#x27;rit payments; CPA follow-up; lawyer follow-up; AI glasses.</li><li><span class="when">2026-10-12 11:55 · Ownership</span>Max: follow up with Ding Ding flagged on Wellnest line; new P0 &#x27;respond to CPA&#x27; added under Taxes.</li><li><span class="when">2026-10-11 22:25 · Ownership</span>Wellnest attorney follow-up moved from Dump to the wellnest agent. Dump now 18 open / 0 P0 / 2 P1.</li></ul></section>
+<section><h2><svg viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7"/><rect x="13" y="4" width="7" height="7"/><rect x="4" y="13" width="7" height="7"/><rect x="13" y="13" width="7" height="7"/></svg>Apps</h2><div class="empty"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7"/><rect x="13" y="4" width="7" height="7"/><rect x="4" y="13" width="7" height="7"/><rect x="13" y="13" width="7" height="7"/></svg>Dump has no content apps yet. They will show up here.</div></section>
+</div>
+<footer><a class="mw-hover" href="https://maxweberman.com">Built by Max Weberman</a></footer>
+</main>
+<div class="bar"><button class="btn mw-hover" id="share"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 8l5-5 5 5M5 14v6h14v-6"/></svg>Share</button></div>
+<script>
+document.getElementById('share').onclick=async()=>{const url=location.href,text='Dump dashboard: 21 open (2 P0, 2 P1, 17 P2)';
+if(navigator.share){try{await navigator.share({title:'Dump Command Center',text,url});return}catch(e){if(e.name==='AbortError')return}}
+if(/iPhone|iPad|Android/i.test(navigator.userAgent)){location.href='sms:?&body='+encodeURIComponent(text+' '+url);return}
+const b=document.getElementById('share');try{await navigator.clipboard.writeText(url)}catch(e){};const o=b.innerHTML;b.textContent='Copied';setTimeout(()=>b.innerHTML=o,1600)};
+</script></body></html>
