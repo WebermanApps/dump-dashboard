@@ -1,0 +1,39 @@
+{
+ "agent": "dump",
+ "decks": [
+  {
+   "id": "dump-triage-triage-deck",
+   "name": "Triage Deck",
+   "url": "https://webermanapps.github.io/style-swipe/dump-triage-triage-deck-dzxgn3/",
+   "total": 20,
+   "topic": "dump-triage",
+   "source": "/workspace/ops/apps-home/dump/sources/dump-triage.json",
+   "added": "2026-10-14T20:15:58+07:00",
+   "tag": "Triage",
+   "blurb": "20 cards, ready now"
+  },
+  {
+   "id": "dump-routing-routing-deck",
+   "name": "Routing Deck",
+   "url": "https://webermanapps.github.io/style-swipe/dump-routing-routing-deck-vfsblz/",
+   "total": 20,
+   "topic": "dump-routing",
+   "source": "/workspace/ops/apps-home/dump/sources/dump-routing.json",
+   "added": "2026-10-14T20:15:59+07:00",
+   "tag": "Routing",
+   "blurb": "20 cards, ready now"
+  },
+  {
+   "id": "dump-cleanup-cleanup-deck",
+   "name": "Cleanup Deck",
+   "url": "https://webermanapps.github.io/style-swipe/dump-cleanup-cleanup-deck-7ors08/",
+   "total": 20,
+   "topic": "dump-cleanup",
+   "source": "/workspace/ops/apps-home/dump/sources/dump-cleanup.json",
+   "added": "2026-10-14T20:15:59+07:00",
+   "tag": "Cleanup",
+   "blurb": "20 cards, ready now"
+  }
+ ],
+ "updated": "2026-10-14T20:15:59+07:00"
+}

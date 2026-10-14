@@ -1,6 +1,0 @@
-{"agent":"dump","categories":[
-{"id":"triage","label":"Task Triage Deck","blurb":"Set priorities on open items"},
-{"id":"routing","label":"Routing Deck","blurb":"Pick which agent owns an item"},
-{"id":"cleanup","label":"Cleanup Deck","blurb":"Clear stale items"},
-{"id":"dashboard","label":"Dashboard Deck","blurb":"Tune this dashboard"}],
-"unfinished":[],"ready":null}
