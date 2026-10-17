@@ -2,6 +2,87 @@
  "agent": "dump",
  "decks": [
   {
+   "id": "dump-triage-triage-deck-home-family",
+   "name": "Triage: Home & Family",
+   "url": "https://webermanapps.github.io/style-swipe/dump-triage-triage-deck-home-family-5toa7z/",
+   "total": 10,
+   "topic": "dump-triage",
+   "source": "/workspace/ops/apps-home/dump/sources/dump-triage.json",
+   "added": "2026-10-17T08:05:35+07:00",
+   "tag": "Triage",
+   "answered": 0,
+   "split_from": "dump-triage-triage-deck",
+   "blurb": "10 cards, ready now"
+  },
+  {
+   "id": "dump-triage-triage-deck-tech-self",
+   "name": "Triage: Tech & Self",
+   "url": "https://webermanapps.github.io/style-swipe/dump-triage-triage-deck-tech-self-hniph1/",
+   "total": 10,
+   "topic": "dump-triage",
+   "source": "/workspace/ops/apps-home/dump/sources/dump-triage.json",
+   "added": "2026-10-17T08:05:35+07:00",
+   "tag": "Triage",
+   "answered": 0,
+   "split_from": "dump-triage-triage-deck",
+   "blurb": "10 cards, ready now"
+  },
+  {
+   "id": "dump-routing-routing-deck-home-family",
+   "name": "Routing: Home & Family",
+   "url": "https://webermanapps.github.io/style-swipe/dump-routing-routing-deck-home-family-f2m7hb/",
+   "total": 10,
+   "topic": "dump-routing",
+   "source": "/workspace/ops/apps-home/dump/sources/dump-routing.json",
+   "added": "2026-10-17T08:05:35+07:00",
+   "tag": "Routing",
+   "answered": 0,
+   "split_from": "dump-routing-routing-deck",
+   "blurb": "10 cards, ready now"
+  },
+  {
+   "id": "dump-routing-routing-deck-tech-self",
+   "name": "Routing: Tech & Self",
+   "url": "https://webermanapps.github.io/style-swipe/dump-routing-routing-deck-tech-self-vmngw8/",
+   "total": 10,
+   "topic": "dump-routing",
+   "source": "/workspace/ops/apps-home/dump/sources/dump-routing.json",
+   "added": "2026-10-17T08:05:35+07:00",
+   "tag": "Routing",
+   "answered": 0,
+   "split_from": "dump-routing-routing-deck",
+   "blurb": "10 cards, ready now"
+  },
+  {
+   "id": "dump-cleanup-cleanup-deck-home-family",
+   "name": "Cleanup: Tech & Self",
+   "url": "https://webermanapps.github.io/style-swipe/dump-cleanup-cleanup-deck-home-family-7r0gcg/",
+   "total": 10,
+   "topic": "dump-cleanup",
+   "source": "/workspace/ops/apps-home/dump/sources/dump-cleanup.json",
+   "added": "2026-10-17T08:05:35+07:00",
+   "tag": "Cleanup",
+   "answered": 0,
+   "split_from": "dump-cleanup-cleanup-deck",
+   "blurb": "10 cards, ready now"
+  },
+  {
+   "id": "dump-cleanup-cleanup-deck-tech-self",
+   "name": "Cleanup: Home & Family",
+   "url": "https://webermanapps.github.io/style-swipe/dump-cleanup-cleanup-deck-tech-self-npp405/",
+   "total": 10,
+   "topic": "dump-cleanup",
+   "source": "/workspace/ops/apps-home/dump/sources/dump-cleanup.json",
+   "added": "2026-10-17T08:05:35+07:00",
+   "tag": "Cleanup",
+   "answered": 0,
+   "split_from": "dump-cleanup-cleanup-deck",
+   "blurb": "10 cards, ready now"
+  }
+ ],
+ "updated": "2026-10-17T08:05:35+07:00",
+ "unlisted": [
+  {
    "id": "dump-triage-triage-deck",
    "name": "Triage Deck",
    "url": "https://webermanapps.github.io/style-swipe/dump-triage-triage-deck-dzxgn3/",
@@ -10,7 +91,13 @@
    "source": "/workspace/ops/apps-home/dump/sources/dump-triage.json",
    "added": "2026-10-14T20:15:58+07:00",
    "tag": "Triage",
-   "blurb": "20 cards, ready now"
+   "blurb": "20 cards, ready now",
+   "unlisted_at": "2026-10-17T08:05:35+07:00",
+   "split_into": [
+    "dump-triage-triage-deck-home-family",
+    "dump-triage-triage-deck-tech-self"
+   ],
+   "note": "R86 (Max Oct 17 2026 07:50 ICT): unanswered 20-pick deck split into two 10-pick decks; original unlisted (page, file and any votes kept)"
   },
   {
    "id": "dump-routing-routing-deck",
@@ -21,7 +108,13 @@
    "source": "/workspace/ops/apps-home/dump/sources/dump-routing.json",
    "added": "2026-10-14T20:15:59+07:00",
    "tag": "Routing",
-   "blurb": "20 cards, ready now"
+   "blurb": "20 cards, ready now",
+   "unlisted_at": "2026-10-17T08:05:35+07:00",
+   "split_into": [
+    "dump-routing-routing-deck-home-family",
+    "dump-routing-routing-deck-tech-self"
+   ],
+   "note": "R86 (Max Oct 17 2026 07:50 ICT): unanswered 20-pick deck split into two 10-pick decks; original unlisted (page, file and any votes kept)"
   },
   {
    "id": "dump-cleanup-cleanup-deck",
@@ -32,8 +125,17 @@
    "source": "/workspace/ops/apps-home/dump/sources/dump-cleanup.json",
    "added": "2026-10-14T20:15:59+07:00",
    "tag": "Cleanup",
-   "blurb": "20 cards, ready now"
+   "blurb": "20 cards, ready now",
+   "unlisted_at": "2026-10-17T08:05:35+07:00",
+   "split_into": [
+    "dump-cleanup-cleanup-deck-home-family",
+    "dump-cleanup-cleanup-deck-tech-self"
+   ],
+   "note": "R86 (Max Oct 17 2026 07:50 ICT): unanswered 20-pick deck split into two 10-pick decks; original unlisted (page, file and any votes kept)"
   }
  ],
- "updated": "2026-10-14T20:15:59+07:00"
+ "cap": 10,
+ "cap_note": "R86 (Max Oct 17 2026 07:50 ICT): every shelf shows up to 10 decks (pinned included), 10 picks per deck; in-progress first, done last (kit deck-shelf.js sort)",
+ "held": [],
+ "queued": []
 }
