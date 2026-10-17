@@ -54,9 +54,9 @@
    "blurb": "10 cards, ready now"
   },
   {
-   "id": "dump-cleanup-cleanup-deck-home-family",
+   "id": "dump-cleanup-cleanup-deck-tech-self-deck",
    "name": "Cleanup: Tech & Self",
-   "url": "https://webermanapps.github.io/style-swipe/dump-cleanup-cleanup-deck-home-family-7r0gcg/",
+   "url": "https://webermanapps.github.io/style-swipe/dump-cleanup-cleanup-deck-tech-self-deck-v02r0v/",
    "total": 10,
    "topic": "dump-cleanup",
    "source": "/workspace/ops/apps-home/dump/sources/dump-cleanup.json",
@@ -64,12 +64,13 @@
    "tag": "Cleanup",
    "answered": 0,
    "split_from": "dump-cleanup-cleanup-deck",
-   "blurb": "10 cards, ready now"
+   "blurb": "10 cards, ready now",
+   "renamed_from": "dump-cleanup-cleanup-deck-home-family"
   },
   {
-   "id": "dump-cleanup-cleanup-deck-tech-self",
+   "id": "dump-cleanup-cleanup-deck-home-family-deck",
    "name": "Cleanup: Home & Family",
-   "url": "https://webermanapps.github.io/style-swipe/dump-cleanup-cleanup-deck-tech-self-npp405/",
+   "url": "https://webermanapps.github.io/style-swipe/dump-cleanup-cleanup-deck-home-family-deck-f8u6p6/",
    "total": 10,
    "topic": "dump-cleanup",
    "source": "/workspace/ops/apps-home/dump/sources/dump-cleanup.json",
@@ -77,10 +78,11 @@
    "tag": "Cleanup",
    "answered": 0,
    "split_from": "dump-cleanup-cleanup-deck",
-   "blurb": "10 cards, ready now"
+   "blurb": "10 cards, ready now",
+   "renamed_from": "dump-cleanup-cleanup-deck-tech-self"
   }
  ],
- "updated": "2026-10-17T08:05:35+07:00",
+ "updated": "2026-10-17T09:55:08+07:00",
  "unlisted": [
   {
    "id": "dump-triage-triage-deck",
@@ -128,8 +130,8 @@
    "blurb": "20 cards, ready now",
    "unlisted_at": "2026-10-17T08:05:35+07:00",
    "split_into": [
-    "dump-cleanup-cleanup-deck-home-family",
-    "dump-cleanup-cleanup-deck-tech-self"
+    "dump-cleanup-cleanup-deck-tech-self-deck",
+    "dump-cleanup-cleanup-deck-home-family-deck"
    ],
    "note": "R86 (Max Oct 17 2026 07:50 ICT): unanswered 20-pick deck split into two 10-pick decks; original unlisted (page, file and any votes kept)"
   }
@@ -137,5 +139,6 @@
  "cap": 10,
  "cap_note": "R86 (Max Oct 17 2026 07:50 ICT): every shelf shows up to 10 decks (pinned included), 10 picks per deck; in-progress first, done last (kit deck-shelf.js sort)",
  "held": [],
- "queued": []
+ "queued": [],
+ "done": []
 }
